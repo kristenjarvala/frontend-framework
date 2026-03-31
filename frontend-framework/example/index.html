@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Todo App built with our custom framework">
+    <title>Todo App - Custom Framework</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Main app container -->
+    <div id="app">
+        <!-- Loading state while JavaScript loads -->
+        <div style="
+            text-align: center;
+            padding: 3rem;
+            color: white;
+            font-family: sans-serif;
+        ">
+            <h2>Loading...</h2>
+            <p>If this message persists, check the console for errors.</p>
+        </div>
+    </div>
+    
+    <!-- Load the app -->
+    <script type="module" src="src/app.js"></script>
+</body>
+</html>
